@@ -6,7 +6,7 @@
 /*   By: mtrautne <mtrautne@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/10 11:01:07 by mtrautne          #+#    #+#             */
-/*   Updated: 2022/10/28 10:33:46 by mtrautne         ###   ########.fr       */
+/*   Updated: 2022/10/28 19:45:02 by mtrautne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ the first '\n' or NULL if '\0' is encountered.*/
 char	*get_next_line(int fd)
 {
 	char		*line;
-	static char	*static_str[1024];
+	static char	*static_str[10300];
 
 	if (fd < 0 || BUFFER_SIZE < 1)
 		return (NULL);

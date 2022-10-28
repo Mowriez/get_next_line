@@ -6,7 +6,7 @@
 /*   By: mtrautne <mtrautne@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/27 13:43:59 by mtrautne          #+#    #+#             */
-/*   Updated: 2022/10/28 10:35:02 by mtrautne         ###   ########.fr       */
+/*   Updated: 2022/10/28 19:45:18 by mtrautne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 50
+#  define BUFFER_SIZE 420
 # endif
 
 char	*get_next_line(int fd);
